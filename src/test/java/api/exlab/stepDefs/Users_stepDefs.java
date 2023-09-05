@@ -5,7 +5,8 @@ import api.exlab.utilities.ConfigurationReader;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class Users_stepDefs {
     @When("The user creates a POST request with {string} and {string} and {string} and {string} and {string}")

@@ -7,7 +7,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class Experience_stepDefs {
     @When("The user creates a POST request for add a new experience with {string} ad {string} and {string} and {string} {string} and {string} and {string}")
